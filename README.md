@@ -8,6 +8,12 @@
   <img src="https://img.shields.io/badge/License-MIT-green" alt="License: MIT" />
 </p>
 
+<p align="center">
+  <a href="https://render.com/deploy?repo=https://github.com/24jajook1-sys/Fake-review-ML">
+    <img src="https://render.com/images/deploy-to-render-button.svg" alt="Deploy to Render" />
+  </a>
+</p>
+
 ---
 
 **ReviewGuard** is a full-stack Machine Learning and Natural Language Processing (NLP) web application that detects fraudulent, computer-generated, and synthetic product reviews in real time. Built upon an empirical corpus of **40,432 labeled multi-category reviews**, ReviewGuard analyzes linguistic and syntactic markers to deliver accurate classifications, probability distributions, and confidence scoring in under 30 milliseconds.
