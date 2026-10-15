@@ -110,11 +110,6 @@ Review_Guard/
 │   └── fake reviews dataset.csv                # Benchmark training dataset (40,432 entries)
 ├── docs/
 │   └── SRS_Report.md                            # Comprehensive IEEE-adapted Software Requirements Spec
-├── presentation/
-│   ├── Presentation_Master_Deck.md              # 14-slide master coordination outline for 3 presenters
-│   ├── Presenter_1_Problem_Data_Architecture.md # Script & viva defense cheat sheet for Speaker 1
-│   ├── Presenter_2_ML_NLP_Algorithms.md         # Script & viva defense cheat sheet for Speaker 2
-│   └── Presenter_3_Implementation_Demo_FutureScope.md # Script & viva defense cheat sheet for Speaker 3
 ├── Fake_Review_Detection.ipynb                 # End-to-end data science research & training notebook
 ├── requirements.txt                             # Locked production dependencies
 ├── Procfile                                     # Cloud WSGI startup specification
@@ -236,15 +231,11 @@ Double-click [`run_locally.bat`](run_locally.bat). It will initialize the enviro
 
 ---
 
-## 📚 Academic Documentation & Presentation
+## 📚 Academic Documentation
 
 This repository includes comprehensive documentation prepared for academic defense and institutional evaluation:
 
 * **[Software Requirements Specification (SRS Report)](docs/SRS_Report.md):** Formal IEEE-standard technical specification detailing mathematical proofs, functional/non-functional requirements, failure modes, and professor viva examination defenses.
-* **[Master Presentation Deck](presentation/Presentation_Master_Deck.md):** 14-slide master coordination guide for a 3-person team presentation.
-* **[Presenter 1 Guide](presentation/Presenter_1_Problem_Data_Architecture.md):** Problem statement, astroturfing impact, dataset EDA, and architecture.
-* **[Presenter 2 Guide](presentation/Presenter_2_ML_NLP_Algorithms.md):** NLP sanitization, TF-IDF mathematics, classifier benchmarking, and probability calibration.
-* **[Presenter 3 Guide](presentation/Presenter_3_Implementation_Demo_FutureScope.md):** Full-stack web engineering, live demo script, shortcomings, and future roadmap.
 
 ---
 
