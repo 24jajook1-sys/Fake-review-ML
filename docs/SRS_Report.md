@@ -15,7 +15,7 @@
 7. [Chapter 7: User Interface Development and Deployment](#chapter-7-user-interface-development-and-deployment)
 8. [Chapter 8: Engineering Shortcomings & Future Scope](#chapter-8-engineering-shortcomings--future-scope)
 9. [Chapter 9: Academic References](#chapter-9-academic-references)
-10. [Appendix: Faculty Defense & Viva Q&A Guide](#appendix-faculty-defense--viva-qa-guide)
+
 
 ---
 
