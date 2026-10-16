@@ -276,14 +276,3 @@ ReviewGuard is containerized and continuously deployed to **Render** via Git int
 
 ---
 
-## Appendix: Faculty Defense & Viva Q&A Guide
-
-* **Q: Why is Logistic Regression preferred over BERT in production?**  
-  *A:* Logistic Regression achieves 89.2% accuracy with sub-25ms CPU latency and <3 MB RAM usage. BERT yields ~91.5% accuracy but requires dedicated GPUs, 500ms latency, and high cloud hosting costs.
-* **Q: How does the model mitigate overfitting on 50,000 TF-IDF features?**  
-  *A:* Via $L_2$ Ridge regularization ($\frac{1}{2C}\|\mathbf{w}\|_2^2$), which penalizes extreme weights and shrinks non-informative token coefficients towards zero.
-* **Q: What is the benefit of the Three-Tier Threshold over a standard 0.50 cutoff?**  
-  *A:* It creates an explicit uncertainty buffer between 0.45 and 0.55, preventing high-stakes false accusations on borderline customer reviews and routing them to human moderation queues.
-
----
-*Document Compiled by ReviewGuard Engineering Team for Academic Evaluation.*
